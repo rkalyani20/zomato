@@ -32,6 +32,3 @@ class Order(models.Model):
     user_address=models.CharField(max_length=40)
     item_name= models.CharField(max_length=40, default= None)
     restaurant_name= models.CharField(max_length=40)
-
-    
-
